@@ -1,0 +1,101 @@
+.ant-form-item-label label {
+  font-weight: 550
+}
+
+.grid-wrapper {
+  padding-top: 0;
+}
+
+:where(.css-dev-only-do-not-override-qnu6hi).ant-card .ant-card-body {
+  padding-top: 0;
+  position: relative;
+}
+
+.ant-popover-inner {}
+
+.ant-popover {
+  width: 50% !important;
+  z-index: 99999 !important;
+}
+
+/* Default styles for larger screens */
+.dynamic-form {
+  margin-top: 110px;
+}
+
+.form-wrapper {
+  padding: 20px;
+}
+
+/* .table-sticky-header{
+   padding: 5px;
+}
+.table-sticky-header img{
+   margin-right:10px;
+} */
+
+/* Media query for screens up to 320px width */
+@media (max-width: 320px) {
+  .dynamic-form {
+    margin-top: 110px;
+    /* Adjust margin for smaller screens */
+  }
+
+  /* Adjust the Card padding and width */
+  .ant-card {
+    padding: 10px;
+    width: 100%;
+  }
+
+  /* Set grid items to full width (24 columns) for narrow screens */
+  .ant-col {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+
+  /* Adjust form inputs for better readability on smaller screens */
+  .ant-form-item {
+    margin-bottom: 16px;
+  }
+
+  .ant-input,
+  .ant-select-selector {
+    font-size: 14px;
+    padding: 6px;
+  }
+
+  /* Adjust the button size */
+  .ant-btn {
+
+    font-size: 14px;
+    margin-right: 10px;
+  }
+
+  /* .table-sticky-header img {
+    margin-right: 20px;
+  }
+}
+@media (max-width: 720px) {
+   .table-sticky-header img {
+      margin-right:40px;
+    }
+} */
+}
+
+@media (max-width: 600px) {
+  .dynamic-form-fixed-m-left {
+    margin-left: 10px !important;
+  }
+
+  .dynamic-form-backbutton-typography {
+    left: 10px !important;
+  }
+
+  .stepper-card-dynamic-form{
+    margin-top: 10px !important;
+  }
+}
+
+:where(.css-dev-only-do-not-override-19lec04).ant-form-item{
+  margin-bottom: 12px;
+}
